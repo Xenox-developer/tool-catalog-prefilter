@@ -1,0 +1,16 @@
+{
+  "operation": "run",
+  "options": {
+    "task": "Implement only tool_lab.py. Read fixed fixtures.py and tests before editing. Do not modify tests, fixtures, protocol, run/analyze/verify or any other host deliverables. No Ollama/network/inference calls. select_tools(request,tools,k=4): lowercase regex [a-z0-9]+ tokens, subtract existing STOPWORDS, rank tools by DISTINCT overlap of request terms with function name + space + description, descending count, then ascending name; first max(0,k); do not mutate inputs or use expected labels. score(response,expected,available_names=None): always return boolean keys valid_single_call,name_correct,arguments_correct,tool_available,exact. Tolerate malformed response safely. valid_single_call means exactly one tool_calls entry, dictionary function with nonempty string name; args may be wrong and done status may be false. name_correct requires valid_single_call and exact expected name. arguments_correct requires valid_single_call and dict args (or valid JSON-encoded dict), exactly query/limit keys; string query exact expected; limit int or float, finite integral 1..20, not bool, exactly expected numeric value; 3.0 equals 3. tool_available requires valid_single_call and membership in provided names; when None, valid_single_call suffices. exact requires done is True AND all four booleans. Never mutate any input. Use invariant_validate for the complete fixed suite; after pass finalize without more changes. No gold/case-specific implementation.",
+    "test_command": "python3 -B tests/run_checks.py",
+    "test_paths": [
+      "tests",
+      "fixtures.py"
+    ],
+    "test_report": "check-report.json",
+    "effort": "medium",
+    "apply_include": [
+      "tool_lab.py"
+    ]
+  }
+}

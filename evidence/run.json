@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-11T11:08:58.399987+00:00",
+  "tested_commit": "5595caf429b3b757bd9d7e72593b9ed8ed12d498",
+  "planned_calls": 64,
+  "wall_seconds": 1352.336658,
+  "finished_utc": "2026-11-11T11:31:30.736645+00:00",
+  "transport_amendment": "TRANSPORT-AMENDMENT.md",
+  "initial_stop": "evidence/initial-stop.json",
+  "continuation_status": "completed",
+  "original_driver_wall_seconds": 11.852589130401611
+}

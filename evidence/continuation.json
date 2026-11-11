@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "started_utc": "2026-11-11T11:10:47.041538+00:00",
+  "completed_prefix": 1,
+  "new_planned_calls": 63,
+  "original_raw_sha256": "5ba006b3ddddd4916da03806e7910294fa7472dc4052af664dd5ef8d0fffce41",
+  "frozen_manifest_sha256": "5c5b8fcb55083793e6407e8443a07f66ba83927ad94be67308b726231f26798a",
+  "recovery_sha256": "773969816a2e93087d76a76d229858cd4b48dd72de80ead033e64a16dfa98626",
+  "amendment_sha256": "d8c979ec12140083f1561f9eddcb2723ceed86def5cc1f3041cd669719a2c5eb",
+  "tested_commit": "5595caf429b3b757bd9d7e72593b9ed8ed12d498",
+  "pending_index": null,
+  "completed_total": 64,
+  "finished_utc": "2026-11-11T11:31:30.736645+00:00"
+}

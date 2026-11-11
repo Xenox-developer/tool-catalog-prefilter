@@ -1,0 +1,18 @@
+{
+  "correct_function_with_quoted_query": [
+    {
+      "model": "qwen2.5:7b",
+      "condition": "full64",
+      "calls": 9
+    },
+    {
+      "model": "qwen2.5:7b",
+      "condition": "lexical4",
+      "calls": 2
+    }
+  ],
+  "measured_calls": 64,
+  "errors": 0,
+  "cache_counter_available": 0,
+  "max_prompt_tokens": 5356
+}
