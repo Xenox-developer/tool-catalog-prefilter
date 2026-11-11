@@ -35,7 +35,7 @@ After the first completed response, the original driver stopped at the next read
 - Semantic reviewer: 1 observed response, 4,460 input + 176 output = 4,636 tokens, including 124 reasoning-output tokens.
 - Combined: 2 native sessions, 5 observed provider responses, 50,228 tokens. The tool's model_calls field counts two sessions, not five provider responses. No claim of one response per session.
 - Outer chat token usage is unavailable. Implementation-agent usage and local Qwen measurement counters are different scopes; neither is an API bill estimate.
-- Receipt: [evidence/invariant.json](evidence/invariant.json); fixed job: [invariant-job.json](evidence/invariant-job.json); reconciled worker observations: [invariant-worker-usage.jsonl](evidence/invariant-worker-usage.jsonl). Six tests passed, review approved and application verification succeeded. The worker's optional git diff check failed because its container snapshot was not a Git checkout; fixed acceptance and host diff checks passed.
+- Receipt: [evidence/invariant.json](evidence/invariant.json); fixed job: [invariant-job.json](evidence/invariant-job.json); reconciled worker observations: [invariant-worker-usage.jsonl](evidence/invariant-worker-usage.jsonl). Six tests passed, review approved and application verification succeeded. The worker's optional git diff check returned exit 129; fixed acceptance and host diff checks passed. The saved receipt does not establish the optional command's error cause.
 
 ## Recalculate saved results without model inference
 
