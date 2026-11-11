@@ -1,0 +1,322 @@
+[
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "pagerduty-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "pagerduty-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "grafana-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "grafana-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "sentry-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "sentry-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "slack-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "slack-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "sentry-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "sentry-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "github-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "github-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "gdrive-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "gdrive-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "grafana-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "grafana-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "github-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "github-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "pagerduty-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "pagerduty-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "gdrive-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "gdrive-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "slack-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "slack-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "jira-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "jira-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "jira-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "jira-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "notion-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "notion-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "notion-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen2.5:7b",
+    "case_id": "notion-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "pagerduty-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "pagerduty-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "jira-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "jira-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "github-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "github-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "sentry-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "sentry-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "sentry-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "sentry-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "gdrive-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "gdrive-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "github-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "github-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "slack-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "slack-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "slack-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "slack-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "grafana-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "grafana-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "grafana-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "grafana-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "notion-paraphrase",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "notion-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "pagerduty-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "pagerduty-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "notion-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "notion-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "jira-explicit",
+    "condition": "full64"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "jira-explicit",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "gdrive-paraphrase",
+    "condition": "lexical4"
+  },
+  {
+    "model": "qwen3:8b",
+    "case_id": "gdrive-paraphrase",
+    "condition": "full64"
+  }
+]

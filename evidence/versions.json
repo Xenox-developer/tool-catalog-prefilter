@@ -1,0 +1,7 @@
+{
+  "ollama": {
+    "version": "0.20.2"
+  },
+  "python": "Python 3.12.1",
+  "invariant": "invariant 0.3.1"
+}

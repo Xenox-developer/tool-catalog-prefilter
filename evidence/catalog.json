@@ -1,0 +1,1730 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_comments",
+      "description": "Search Google Drive comments. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_documents",
+      "description": "Search Google Drive documents. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_files",
+      "description": "Search Google Drive files. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_folders",
+      "description": "Search Google Drive folders. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_permissions",
+      "description": "Search Google Drive permissions. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_presentations",
+      "description": "Search Google Drive presentations. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_shortcuts",
+      "description": "Search Google Drive shortcuts. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "gdrive_search_spreadsheets",
+      "description": "Search Google Drive spreadsheets. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_commits",
+      "description": "Search GitHub commits. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_discussions",
+      "description": "Search GitHub discussions. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_issues",
+      "description": "Search GitHub issues. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_projects",
+      "description": "Search GitHub projects. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_pull_requests",
+      "description": "Search GitHub pull requests. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_releases",
+      "description": "Search GitHub releases. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_repositories",
+      "description": "Search GitHub repositories. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "github_search_users",
+      "description": "Search GitHub users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_alerts",
+      "description": "Search Grafana alerts. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_annotations",
+      "description": "Search Grafana annotations. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_dashboards",
+      "description": "Search Grafana dashboards. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_datasources",
+      "description": "Search Grafana datasources. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_folders",
+      "description": "Search Grafana folders. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_panels",
+      "description": "Search Grafana panels. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_teams",
+      "description": "Search Grafana teams. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grafana_search_users",
+      "description": "Search Grafana users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_boards",
+      "description": "Search Jira boards. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_comments",
+      "description": "Search Jira comments. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_filters",
+      "description": "Search Jira filters. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_issues",
+      "description": "Search Jira issues. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_projects",
+      "description": "Search Jira projects. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_sprints",
+      "description": "Search Jira sprints. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_users",
+      "description": "Search Jira users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "jira_search_versions",
+      "description": "Search Jira versions. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_blocks",
+      "description": "Search Notion blocks. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_collections",
+      "description": "Search Notion collections. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_comments",
+      "description": "Search Notion comments. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_databases",
+      "description": "Search Notion databases. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_pages",
+      "description": "Search Notion pages. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_templates",
+      "description": "Search Notion templates. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_users",
+      "description": "Search Notion users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "notion_search_workspaces",
+      "description": "Search Notion workspaces. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_alerts",
+      "description": "Search PagerDuty alerts. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_escalation_policies",
+      "description": "Search PagerDuty escalation policies. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_incidents",
+      "description": "Search PagerDuty incidents. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_integrations",
+      "description": "Search PagerDuty integrations. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_schedules",
+      "description": "Search PagerDuty schedules. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_services",
+      "description": "Search PagerDuty services. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_teams",
+      "description": "Search PagerDuty teams. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pagerduty_search_users",
+      "description": "Search PagerDuty users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_alerts",
+      "description": "Search Sentry alerts. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_events",
+      "description": "Search Sentry events. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_issues",
+      "description": "Search Sentry issues. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_projects",
+      "description": "Search Sentry projects. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_releases",
+      "description": "Search Sentry releases. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_teams",
+      "description": "Search Sentry teams. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_traces",
+      "description": "Search Sentry traces. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sentry_search_transactions",
+      "description": "Search Sentry transactions. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_bookmarks",
+      "description": "Search Slack bookmarks. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_canvases",
+      "description": "Search Slack canvases. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_channels",
+      "description": "Search Slack channels. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_files",
+      "description": "Search Slack files. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_messages",
+      "description": "Search Slack messages. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_reactions",
+      "description": "Search Slack reactions. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_threads",
+      "description": "Search Slack threads. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "slack_search_users",
+      "description": "Search Slack users. Read-only. Preserve the quoted query exactly; limit is the maximum result count.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Exact search text from the user."
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Maximum number of results."
+          }
+        },
+        "required": [
+          "query",
+          "limit"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-11T11:08:58.217124+00:00",
+  "planned_calls": 64,
+  "files": {
+    "PROTOCOL.md": "e1f9fa8756f04f10bd648f9c834f4af5b93e43dbf08a38e690adbad0542bb7b2",
+    "fixtures.py": "3ddc3870cbce8ccdc4381a4690d8d14b259c2c7331fd96db3d102c6f220a764a",
+    "tool_lab.py": "68454a30e3a208e7afcd24a127cd435a3617fa4f2086b5c3789e3fbfc5c37c2e",
+    "run.py": "d50b029bfc00cbd4c680314ad75d2d0196c25ace0e9881725bf7d36175695e6f",
+    "analyze.py": "5e6a2458f9e4d629c3053f82b55edb46bb80009803449bad675b3489f3e69033",
+    "verify.py": "615e9ad5f43c0e37dbb36d1becec39eab227bacb5d997e80dd4e5837cbb820cc",
+    "tests/test_acceptance.py": "0e54692978b19ac4279f084a4a7ab05642e3cf8cb61e781b6070cb120a92c2d5",
+    "tests/run_checks.py": "ea2c8d91950b3d11f1f699178d7dbf8c21f7e13d3f8db5bd4b3c88a1b9b26934",
+    "evidence/invariant.json": "6a51480e53aefb68751e45691609666493307d79e93ffbc0d8c579ec4f44bcee",
+    "evidence/catalog.json": "2969699c05cd40f18ed37901298ea48b8d1bd65cf22837f897b514351498c8b9",
+    "evidence/cases.json": "4da668af3c06b950869d0659cfc35e23f6ec072eba76769b46d02fd378b12f28",
+    "evidence/schedule.json": "c9b4efd1ac967ff0ede1fbf3189a53478b3c349d6f1ee6ed856730b2ab269b68",
+    "evidence/models.json": "a361abfd5c3f7fb1d2de889a60fbea9083dd3226d58d876153ddae3d71a9150c",
+    "evidence/versions.json": "93f4bef2ecda79485c250de03f2900b191b0e50f3937d7296cd7163fb7e39a7e"
+  }
+}

@@ -73,7 +73,7 @@ def freeze():
     dump(ROOT/'evidence/models.json',info)
     dump(ROOT/'evidence/versions.json',{'ollama':api('/api/version'),'python':subprocess.check_output(['python3','--version'],text=True).strip(),
         'invariant':subprocess.check_output(['invariant','--version'],text=True).strip()})
-    files=['PROTOCOL.md','fixtures.py','tool_lab.py','run.py','analyze.py','verify.py','tests/test_acceptance.py',
+    files=['PROTOCOL.md','fixtures.py','tool_lab.py','run.py','analyze.py','verify.py','tests/test_acceptance.py','tests/run_checks.py','evidence/invariant.json',
            'evidence/catalog.json','evidence/cases.json','evidence/schedule.json','evidence/models.json','evidence/versions.json']
     value={'schema_version':1,'created_at':datetime.now(timezone.utc).isoformat(),'planned_calls':64,
            'files':{name:sha(ROOT/name) for name in files}}

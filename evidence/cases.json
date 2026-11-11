@@ -1,0 +1,210 @@
+[
+  {
+    "id": "github-explicit",
+    "intent": "github",
+    "wording": "explicit",
+    "request": "Search GitHub issues for the exact text \"refresh token\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "github_search_issues",
+      "arguments": {
+        "query": "refresh token",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "github-paraphrase",
+    "intent": "github",
+    "wording": "paraphrase",
+    "request": "Look for bug reports in the source-code hosting service for the exact text \"refresh token\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "github_search_issues",
+      "arguments": {
+        "query": "refresh token",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "slack-explicit",
+    "intent": "slack",
+    "wording": "explicit",
+    "request": "Search Slack messages for the exact text \"rollout freeze\". Return at most 5 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "slack_search_messages",
+      "arguments": {
+        "query": "rollout freeze",
+        "limit": 5
+      }
+    }
+  },
+  {
+    "id": "slack-paraphrase",
+    "intent": "slack",
+    "wording": "paraphrase",
+    "request": "Find chat posts in our workplace messenger for the exact text \"rollout freeze\". Return at most 5 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "slack_search_messages",
+      "arguments": {
+        "query": "rollout freeze",
+        "limit": 5
+      }
+    }
+  },
+  {
+    "id": "jira-explicit",
+    "intent": "jira",
+    "wording": "explicit",
+    "request": "Search Jira issues for the exact text \"invoice retry\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "jira_search_issues",
+      "arguments": {
+        "query": "invoice retry",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "jira-paraphrase",
+    "intent": "jira",
+    "wording": "paraphrase",
+    "request": "Find tickets in our Atlassian issue tracker for the exact text \"invoice retry\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "jira_search_issues",
+      "arguments": {
+        "query": "invoice retry",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "gdrive-explicit",
+    "intent": "gdrive",
+    "wording": "explicit",
+    "request": "Search Google Drive files for the exact text \"architecture review\". Return at most 4 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "gdrive_search_files",
+      "arguments": {
+        "query": "architecture review",
+        "limit": 4
+      }
+    }
+  },
+  {
+    "id": "gdrive-paraphrase",
+    "intent": "gdrive",
+    "wording": "paraphrase",
+    "request": "Locate stored items in our Google cloud storage for the exact text \"architecture review\". Return at most 4 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "gdrive_search_files",
+      "arguments": {
+        "query": "architecture review",
+        "limit": 4
+      }
+    }
+  },
+  {
+    "id": "sentry-explicit",
+    "intent": "sentry",
+    "wording": "explicit",
+    "request": "Search Sentry events for the exact text \"KeyError\". Return at most 2 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "sentry_search_events",
+      "arguments": {
+        "query": "KeyError",
+        "limit": 2
+      }
+    }
+  },
+  {
+    "id": "sentry-paraphrase",
+    "intent": "sentry",
+    "wording": "paraphrase",
+    "request": "Look up captured occurrences in our application error monitoring service for the exact text \"KeyError\". Return at most 2 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "sentry_search_events",
+      "arguments": {
+        "query": "KeyError",
+        "limit": 2
+      }
+    }
+  },
+  {
+    "id": "grafana-explicit",
+    "intent": "grafana",
+    "wording": "explicit",
+    "request": "Search Grafana dashboards for the exact text \"service health\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "grafana_search_dashboards",
+      "arguments": {
+        "query": "service health",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "grafana-paraphrase",
+    "intent": "grafana",
+    "wording": "paraphrase",
+    "request": "Locate monitoring overview screens in our observability visualization product for the exact text \"service health\". Return at most 3 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "grafana_search_dashboards",
+      "arguments": {
+        "query": "service health",
+        "limit": 3
+      }
+    }
+  },
+  {
+    "id": "pagerduty-explicit",
+    "intent": "pagerduty",
+    "wording": "explicit",
+    "request": "Search PagerDuty schedules for the exact text \"platform primary\". Return at most 2 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "pagerduty_search_schedules",
+      "arguments": {
+        "query": "platform primary",
+        "limit": 2
+      }
+    }
+  },
+  {
+    "id": "pagerduty-paraphrase",
+    "intent": "pagerduty",
+    "wording": "paraphrase",
+    "request": "Find the on-call rota in our incident-response product for the exact text \"platform primary\". Return at most 2 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "pagerduty_search_schedules",
+      "arguments": {
+        "query": "platform primary",
+        "limit": 2
+      }
+    }
+  },
+  {
+    "id": "notion-explicit",
+    "intent": "notion",
+    "wording": "explicit",
+    "request": "Search Notion pages for the exact text \"onboarding checklist\". Return at most 5 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "notion_search_pages",
+      "arguments": {
+        "query": "onboarding checklist",
+        "limit": 5
+      }
+    }
+  },
+  {
+    "id": "notion-paraphrase",
+    "intent": "notion",
+    "wording": "paraphrase",
+    "request": "Find wiki entries in our all-in-one workspace app for the exact text \"onboarding checklist\". Return at most 5 results. Preserve the quoted text verbatim.",
+    "expected": {
+      "name": "notion_search_pages",
+      "arguments": {
+        "query": "onboarding checklist",
+        "limit": 5
+      }
+    }
+  }
+]

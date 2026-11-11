@@ -1,0 +1,185 @@
+{
+  "request_id": "tool-catalog-harness-20261111-v1",
+  "study_id": "study-5fd20013ed6c4384b52a87c873640bf3",
+  "execution": {
+    "study_id": "study-5fd20013ed6c4384b52a87c873640bf3",
+    "state": "completed",
+    "receipts": [
+      {
+        "schema_version": 1,
+        "study_id": "study-5fd20013ed6c4384b52a87c873640bf3",
+        "attempt_id": "attempt-4186e2980232172ab7bf86b83aa10b75",
+        "definition_digest": "83ff58e1f43612042e7d8bdf03067535e6f5e701d850b0a60a296fc7c999b0a0",
+        "baseline_digest": "f2bee85cfeabc5f5c5c323825070a55d3027da10339632c8c88585bad77e1c30",
+        "result_digest": "2f70974cae2e2506306f378166ed0a58f5599792e23d6462f982e762391e13b8",
+        "state": "succeeded",
+        "passed": true,
+        "evaluation": {
+          "status": "completed",
+          "reason": null,
+          "reused_validation": true,
+          "validation_receipt": "docker-volume://invariant-state-v2/workspaces/1464fd3dd88116e3e36e0760/experiments/attempts/attempt-4186e2980232172ab7bf86b83aa10b75/validations/5eb0e6dd20f59f8f5798696dbce74241784777e39f6eae7f4f53fbba41e8e077/receipt.json",
+          "contract_version": "d229e3f9f6530e9e27096735ff385e6688b8f2cb5c145d0b9f18856ff6c26eac",
+          "command": "python3 -B tests/run_checks.py",
+          "test_exit_code": 0,
+          "checks": {
+            "tests": 6,
+            "failures": 0,
+            "errors": 0
+          },
+          "fixed_test_count": 3,
+          "evidence_path": "docker-volume://invariant-state-v2/workspaces/1464fd3dd88116e3e36e0760/experiments/attempts/attempt-4186e2980232172ab7bf86b83aa10b75/evaluation"
+        },
+        "resources": {
+          "expected_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8",
+          "observed_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8"
+        },
+        "inference_usage": {
+          "complete": true,
+          "final": {
+            "cached_input_tokens": 32128,
+            "input_tokens": 44396,
+            "output_tokens": 1196,
+            "reasoning_output_tokens": 75,
+            "total_tokens": 45592
+          },
+          "path": "docker-volume://invariant-state-v2/workspaces/1464fd3dd88116e3e36e0760/experiments/attempts/attempt-4186e2980232172ab7bf86b83aa10b75/runner.usage.jsonl",
+          "problems": [],
+          "reconciled": true,
+          "response_count": 4
+        },
+        "execution_commands": {
+          "provenance": "executor command-completion events; not worker assertions",
+          "commands": [
+            {
+              "command": "/bin/bash -lc 'cat fixtures.py tests/test_acceptance.py tests/run_checks.py tool_lab.py'",
+              "cwd": "/workspace",
+              "status": "completed",
+              "exit_code": 0
+            },
+            {
+              "command": "/bin/bash -lc 'git diff --check'",
+              "cwd": "/workspace",
+              "status": "failed",
+              "exit_code": 129
+            }
+          ],
+          "omitted_commands": 0
+        },
+        "receipt_digest": "3327b52ff4cab197e4eb206577bcc5bc686e9d04592652fd2c82c220b8bfacc4"
+      }
+    ],
+    "summary": {
+      "scheduled": 1,
+      "runner_successes": 1,
+      "failed": 0,
+      "cancelled": 0,
+      "pending": 0,
+      "evaluated": 1,
+      "missing_evaluations": 0,
+      "quality_passes": 1,
+      "quality_failures": 0,
+      "quality_judged": 1,
+      "missing_quality": 0,
+      "quality_pass_rate_over_scheduled": 1.0
+    },
+    "selection": {
+      "attempt_id": null,
+      "revision": 0
+    },
+    "trials": [
+      {
+        "attempt_id": "attempt-4186e2980232172ab7bf86b83aa10b75",
+        "variant_id": "medium",
+        "state": "succeeded",
+        "passed": true,
+        "duration_seconds": 67.84072184562683,
+        "reason": "COMPLETED"
+      }
+    ],
+    "trials_omitted": 0,
+    "usage": {
+      "model_calls": 1,
+      "input_tokens": 44396,
+      "cached_input_tokens": 32128,
+      "output_tokens": 1196,
+      "reasoning_output_tokens": 75,
+      "total_tokens": 45592,
+      "complete": true
+    }
+  },
+  "decision": {
+    "state": "completed",
+    "decision": {
+      "approved": true,
+      "reason": "Patch meets the specified selection and scoring behavior, preserves inputs, and changes only tool_lab.py. Coordinator-verified invariant_validate evidence confirms the complete fixed suite passed.",
+      "review_digest": "59a62ac346ea5168339e60dd14a7c7b218831ecf4ffdd499bfa35861dcdc898a"
+    },
+    "model": "gpt-6.1-sol",
+    "effort": "medium",
+    "usage": {
+      "total": {
+        "totalTokens": 4636,
+        "inputTokens": 4460,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 176,
+        "reasoningOutputTokens": 124
+      },
+      "last": {
+        "totalTokens": 4636,
+        "inputTokens": 4460,
+        "cachedInputTokens": 0,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 176,
+        "reasoningOutputTokens": 124
+      },
+      "modelContextWindow": 475000
+    },
+    "inference_usage": {
+      "response_count": 1,
+      "complete": true,
+      "reconciled": true,
+      "problems": [],
+      "path": "docker-volume://invariant-state-v2/workspaces/1464fd3dd88116e3e36e0760/tasks/8b22c026606cd376e6ea67ffae93f404c93619de82a4ef7dca07b737170582d0-reviews/59a62ac346ea5168339e60dd14a7c7b218831ecf4ffdd499bfa35861dcdc898a/usage.jsonl",
+      "final": {
+        "input_tokens": 4460,
+        "cached_input_tokens": 0,
+        "output_tokens": 176,
+        "reasoning_output_tokens": 124,
+        "total_tokens": 4636
+      }
+    }
+  },
+  "application": {
+    "plan_id": "plan-b74fb20d09724d94929b67ecd7df3c52",
+    "attempt_id": "attempt-4186e2980232172ab7bf86b83aa10b75",
+    "applied": true,
+    "verification": {
+      "schema_version": 1,
+      "verified": true,
+      "verified_at": 1794395287.4452062,
+      "plan_digest": "59a62ac346ea5168339e60dd14a7c7b218831ecf4ffdd499bfa35861dcdc898a",
+      "result_digest": "2f70974cae2e2506306f378166ed0a58f5599792e23d6462f982e762391e13b8",
+      "changed_paths": 1,
+      "written_entries_digest": "ccf5ffdf213c235cb34cd97174089dbbdb5d3f9c7ce061ebb8e85b33314d65da",
+      "protected_inputs": 3,
+      "protected_entries_digest": "c24f390d22f2a56f3e4414198ddcd53d78cc5c7ac1d92aefbbf0f9feffa86b07"
+    },
+    "container_applied": true,
+    "host_delivery_state": "committed"
+  },
+  "usage": {
+    "model_calls": 2,
+    "input_tokens": 48856,
+    "cached_input_tokens": 32128,
+    "output_tokens": 1372,
+    "reasoning_output_tokens": 199,
+    "total_tokens": 50228,
+    "complete": true
+  },
+  "completion_state": "applied",
+  "invariant_version": "0.3.1",
+  "role": "Implement and validate deterministic retriever and scorer against 6 fixed acceptance tests; separate host Ollama measurement",
+  "outer_caller_usage": null
+}
