@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "started_utc": "2026-11-11T11:08:58.399987+00:00",
+  "tested_commit": "5595caf429b3b757bd9d7e72593b9ed8ed12d498",
+  "planned_calls": 64,
+  "error": "RuntimeError",
+  "detail": "A model remains resident; cold-start contract not satisfied",
+  "wall_seconds": 11.852589130401611,
+  "finished_utc": "2026-11-11T11:09:10.252625+00:00"
+}
